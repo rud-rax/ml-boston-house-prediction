@@ -1,0 +1,370 @@
+[
+    {
+        "model": "LinearRegression()",
+        "Cross-Validation R2 Scores": [
+            0.7906476346145364,
+            0.8096648860223536,
+            0.8225879775247559,
+            0.7461852991839487,
+            0.7448924344730068
+        ],
+        "Mean R2 Score ": 0.783,
+        "Standard Deviation of R2 Scores": 0.032,
+        "Mean Squared Error (MSE)": 11.068,
+        "Root Mean Squared Error (RMSE)": 3.327,
+        "Mean Absolute Error (MAE)": 2.553,
+        "R2": 0.76
+    },
+    {
+        "model": "KNeighborsRegressor(n_neighbors=3)",
+        "Cross-Validation R2 Scores": [
+            0.86270880483812,
+            0.7924722727839942,
+            0.8490751230653151,
+            0.8283185919205373,
+            0.777024636932802
+        ],
+        "Mean R2 Score ": 0.822,
+        "Standard Deviation of R2 Scores": 0.033,
+        "Mean Squared Error (MSE)": 10.841,
+        "Root Mean Squared Error (RMSE)": 3.293,
+        "Mean Absolute Error (MAE)": 2.16,
+        "R2": 0.76
+    },
+    {
+        "model": "KNeighborsRegressor(n_neighbors=3, weights='distance')",
+        "Cross-Validation R2 Scores": [
+            0.8556318478156498,
+            0.7952790815245349,
+            0.8557759916943735,
+            0.8476198459926242,
+            0.7881309859217527
+        ],
+        "Mean R2 Score ": 0.828,
+        "Standard Deviation of R2 Scores": 0.03,
+        "Mean Squared Error (MSE)": 10.663,
+        "Root Mean Squared Error (RMSE)": 3.265,
+        "Mean Absolute Error (MAE)": 2.074,
+        "R2": 0.77
+    },
+    {
+        "model": "KNeighborsRegressor()",
+        "Cross-Validation R2 Scores": [
+            0.8183353603865545,
+            0.7990693192201406,
+            0.8172951190675981,
+            0.8308701581174787,
+            0.7258886911527709
+        ],
+        "Mean R2 Score ": 0.798,
+        "Standard Deviation of R2 Scores": 0.038,
+        "Mean Squared Error (MSE)": 11.862,
+        "Root Mean Squared Error (RMSE)": 3.444,
+        "Mean Absolute Error (MAE)": 2.241,
+        "R2": 0.74
+    },
+    {
+        "model": "KNeighborsRegressor(weights='distance')",
+        "Cross-Validation R2 Scores": [
+            0.8228757965531591,
+            0.8094103354924088,
+            0.8331636586698132,
+            0.8443649904363395,
+            0.7493888871501403
+        ],
+        "Mean R2 Score ": 0.812,
+        "Standard Deviation of R2 Scores": 0.033,
+        "Mean Squared Error (MSE)": 11.022,
+        "Root Mean Squared Error (RMSE)": 3.32,
+        "Mean Absolute Error (MAE)": 2.106,
+        "R2": 0.76
+    },
+    {
+        "model": "KNeighborsRegressor(n_neighbors=10)",
+        "Cross-Validation R2 Scores": [
+            0.8200612322060246,
+            0.8127738951968839,
+            0.8324458540452525,
+            0.8157197493209362,
+            0.7128390053819249
+        ],
+        "Mean R2 Score ": 0.799,
+        "Standard Deviation of R2 Scores": 0.043,
+        "Mean Squared Error (MSE)": 11.885,
+        "Root Mean Squared Error (RMSE)": 3.447,
+        "Mean Absolute Error (MAE)": 2.41,
+        "R2": 0.74
+    },
+    {
+        "model": "KNeighborsRegressor(n_neighbors=10, weights='distance')",
+        "Cross-Validation R2 Scores": [
+            0.8244517061900785,
+            0.827770063314782,
+            0.8398166315671325,
+            0.8344933423209023,
+            0.7336832641206095
+        ],
+        "Mean R2 Score ": 0.812,
+        "Standard Deviation of R2 Scores": 0.04,
+        "Mean Squared Error (MSE)": 10.915,
+        "Root Mean Squared Error (RMSE)": 3.304,
+        "Mean Absolute Error (MAE)": 2.226,
+        "R2": 0.76
+    },
+    {
+        "model": "RandomForestRegressor(n_estimators=10, random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8675817466584442,
+            0.83273369527223,
+            0.8448440329032078,
+            0.7159901462417222,
+            0.7970028975323412
+        ],
+        "Mean R2 Score ": 0.812,
+        "Standard Deviation of R2 Scores": 0.053,
+        "Mean Squared Error (MSE)": 8.684,
+        "Root Mean Squared Error (RMSE)": 2.947,
+        "Mean Absolute Error (MAE)": 2.092,
+        "R2": 0.81
+    },
+    {
+        "model": "RandomForestRegressor(criterion='absolute_error', n_estimators=10,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8945789931173256,
+            0.8398640427382229,
+            0.8253745209817338,
+            0.7263840271074309,
+            0.8130899026587446
+        ],
+        "Mean R2 Score ": 0.82,
+        "Standard Deviation of R2 Scores": 0.054,
+        "Mean Squared Error (MSE)": 8.465,
+        "Root Mean Squared Error (RMSE)": 2.909,
+        "Mean Absolute Error (MAE)": 2.086,
+        "R2": 0.82
+    },
+    {
+        "model": "RandomForestRegressor(criterion='friedman_mse', n_estimators=10,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8733967757027009,
+            0.834890645773578,
+            0.8488082960703397,
+            0.7290419532219452,
+            0.801096465677122
+        ],
+        "Mean R2 Score ": 0.817,
+        "Standard Deviation of R2 Scores": 0.05,
+        "Mean Squared Error (MSE)": 8.908,
+        "Root Mean Squared Error (RMSE)": 2.985,
+        "Mean Absolute Error (MAE)": 2.132,
+        "R2": 0.81
+    },
+    {
+        "model": "RandomForestRegressor(n_estimators=20, random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8818079408469097,
+            0.8552129915580649,
+            0.864831108637039,
+            0.7589440496496357,
+            0.8046969464466867
+        ],
+        "Mean R2 Score ": 0.833,
+        "Standard Deviation of R2 Scores": 0.045,
+        "Mean Squared Error (MSE)": 8.209,
+        "Root Mean Squared Error (RMSE)": 2.865,
+        "Mean Absolute Error (MAE)": 2.1,
+        "R2": 0.82
+    },
+    {
+        "model": "RandomForestRegressor(criterion='absolute_error', n_estimators=20,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8908507673583184,
+            0.861317676372364,
+            0.8612667428016774,
+            0.7750344168661331,
+            0.8275489535762965
+        ],
+        "Mean R2 Score ": 0.843,
+        "Standard Deviation of R2 Scores": 0.04,
+        "Mean Squared Error (MSE)": 7.652,
+        "Root Mean Squared Error (RMSE)": 2.766,
+        "Mean Absolute Error (MAE)": 1.983,
+        "R2": 0.83
+    },
+    {
+        "model": "RandomForestRegressor(criterion='friedman_mse', n_estimators=20,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8873583236422453,
+            0.8514818694776984,
+            0.870114311033195,
+            0.7574731663941852,
+            0.8088614496271676
+        ],
+        "Mean R2 Score ": 0.835,
+        "Standard Deviation of R2 Scores": 0.047,
+        "Mean Squared Error (MSE)": 8.15,
+        "Root Mean Squared Error (RMSE)": 2.855,
+        "Mean Absolute Error (MAE)": 2.095,
+        "R2": 0.82
+    },
+    {
+        "model": "RandomForestRegressor(n_estimators=50, random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8920340536782789,
+            0.8542670875696969,
+            0.8737935025099539,
+            0.7774729160148197,
+            0.8232018358676038
+        ],
+        "Mean R2 Score ": 0.844,
+        "Standard Deviation of R2 Scores": 0.04,
+        "Mean Squared Error (MSE)": 7.253,
+        "Root Mean Squared Error (RMSE)": 2.693,
+        "Mean Absolute Error (MAE)": 1.978,
+        "R2": 0.84
+    },
+    {
+        "model": "RandomForestRegressor(criterion='absolute_error', n_estimators=50,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8852740239346686,
+            0.8632868893750327,
+            0.8752998746923611,
+            0.7930363016517529,
+            0.8257225420794881
+        ],
+        "Mean R2 Score ": 0.849,
+        "Standard Deviation of R2 Scores": 0.034,
+        "Mean Squared Error (MSE)": 7.331,
+        "Root Mean Squared Error (RMSE)": 2.708,
+        "Mean Absolute Error (MAE)": 1.961,
+        "R2": 0.84
+    },
+    {
+        "model": "RandomForestRegressor(criterion='friedman_mse', n_estimators=50,\n                      random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8940122677436201,
+            0.8565015572971358,
+            0.875324334655185,
+            0.7746073741945997,
+            0.8241428466085401
+        ],
+        "Mean R2 Score ": 0.845,
+        "Standard Deviation of R2 Scores": 0.042,
+        "Mean Squared Error (MSE)": 7.617,
+        "Root Mean Squared Error (RMSE)": 2.76,
+        "Mean Absolute Error (MAE)": 2.001,
+        "R2": 0.83
+    },
+    {
+        "model": "RandomForestRegressor(random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8961415101762542,
+            0.8587364492070391,
+            0.8834226859470453,
+            0.7872953186498497,
+            0.8231452114337612
+        ],
+        "Mean R2 Score ": 0.85,
+        "Standard Deviation of R2 Scores": 0.04,
+        "Mean Squared Error (MSE)": 7.077,
+        "Root Mean Squared Error (RMSE)": 2.66,
+        "Mean Absolute Error (MAE)": 1.979,
+        "R2": 0.85
+    },
+    {
+        "model": "RandomForestRegressor(criterion='absolute_error', random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8903709930666982,
+            0.8670801406186237,
+            0.8867911890976795,
+            0.7896670250103768,
+            0.824183729935821
+        ],
+        "Mean R2 Score ": 0.852,
+        "Standard Deviation of R2 Scores": 0.039,
+        "Mean Squared Error (MSE)": 7.301,
+        "Root Mean Squared Error (RMSE)": 2.702,
+        "Mean Absolute Error (MAE)": 1.995,
+        "R2": 0.84
+    },
+    {
+        "model": "RandomForestRegressor(criterion='friedman_mse', random_state=42)",
+        "Cross-Validation R2 Scores": [
+            0.8971233345023977,
+            0.8596375334137236,
+            0.8820905395920722,
+            0.785868026571655,
+            0.8235213229356383
+        ],
+        "Mean R2 Score ": 0.85,
+        "Standard Deviation of R2 Scores": 0.04,
+        "Mean Squared Error (MSE)": 7.176,
+        "Root Mean Squared Error (RMSE)": 2.679,
+        "Mean Absolute Error (MAE)": 1.969,
+        "R2": 0.84
+    },
+    {
+        "model": "GradientBoostingRegressor()",
+        "Cross-Validation R2 Scores": [
+            0.9161822909123658,
+            0.8124288716074171,
+            0.8919885223965509,
+            0.8306742109714967,
+            0.8112182190992364
+        ],
+        "Mean R2 Score ": 0.852,
+        "Standard Deviation of R2 Scores": 0.043,
+        "Mean Squared Error (MSE)": 7.051,
+        "Root Mean Squared Error (RMSE)": 2.655,
+        "Mean Absolute Error (MAE)": 1.995,
+        "R2": 0.85
+    },
+    {
+        "model": "GradientBoostingRegressor(loss='absolute_error')",
+        "Cross-Validation R2 Scores": [
+            0.894745135654471,
+            0.8474436333641909,
+            0.8935588059136615,
+            0.8107900687997683,
+            0.8078292001886868
+        ],
+        "Mean R2 Score ": 0.851,
+        "Standard Deviation of R2 Scores": 0.038,
+        "Mean Squared Error (MSE)": 7.544,
+        "Root Mean Squared Error (RMSE)": 2.747,
+        "Mean Absolute Error (MAE)": 2.058,
+        "R2": 0.84
+    },
+    {
+        "model": "GradientBoostingRegressor(loss='huber')",
+        "Cross-Validation R2 Scores": [
+            0.9024241129744286,
+            0.843877277878118,
+            0.909566447667582,
+            0.8700931957504865,
+            0.8100209358755874
+        ],
+        "Mean R2 Score ": 0.867,
+        "Standard Deviation of R2 Scores": 0.037,
+        "Mean Squared Error (MSE)": 6.724,
+        "Root Mean Squared Error (RMSE)": 2.593,
+        "Mean Absolute Error (MAE)": 1.834,
+        "R2": 0.85
+    },
+    {
+        "model": "GradientBoostingRegressor(loss='quantile')",
+        "Cross-Validation R2 Scores": [
+            0.6040922718673202,
+            0.31209258305479237,
+            0.6689792229787319,
+            0.5092476104315848,
+            0.746519039853378
+        ],
+        "Mean R2 Score ": 0.568,
+        "Standard Deviation of R2 Scores": 0.15,
+        "Mean Squared Error (MSE)": 18.626,
+        "Root Mean Squared Error (RMSE)": 4.316,
+        "Mean Absolute Error (MAE)": 3.541,
+        "R2": 0.6
+    }
+]
