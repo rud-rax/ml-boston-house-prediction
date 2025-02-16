@@ -29,3 +29,15 @@
 | GradientBoostingRegressor(loss='absolute_error') | 0.851 | 0.038 | 7.544 | 2.747 | 2.058 | 0.84 |
 | GradientBoostingRegressor(loss='huber') | 0.867 | 0.037 | 6.724 | 2.593 | 1.834 | 0.85 |
 | GradientBoostingRegressor(loss='quantile') | 0.568 | 0.150 | 18.626 | 4.316 | 3.541 | 0.60 |
+
+
+## Regression Plots for Best Models
+
+![alt text](plots/LinearRegression().png)
+
+![alt text](plots/KNeighborsRegressor(weights='distance').png)
+
+![alt text](plots/RandomForestRegressor(random_state=42).png)
+
+![alt text](plots/GradientBoostingRegressor(loss='huber').png)
+
