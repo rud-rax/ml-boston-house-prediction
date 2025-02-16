@@ -1,14 +1,14 @@
 # ml-boston-house-prediction
 
 
-### Project Summary: Boston Housing Data Analysis and Predictive Modeling
+## Project Summary: Boston Housing Data Analysis and Predictive Modeling
 
-#### **Objective:**
+### **Objective:**
 The primary goal of this project is to analyze a housing dataset, preprocess the data, and build predictive models to estimate the median value of owner-occupied homes (target variable `MEDV`). The project involves data cleaning, visualization, outlier detection, feature scaling, and the evaluation of multiple regression models to identify the best-performing model for predicting housing prices.
 
 ---
 
-#### **Key Steps:**
+### **Key Steps:**
 
 1. **Data Import and Exploration:**
    - The dataset (`HousingData.csv`) is loaded into a pandas DataFrame.
@@ -56,7 +56,7 @@ The primary goal of this project is to analyze a housing dataset, preprocess the
 
 ---
 
-#### **Key Findings:**
+### **Key Findings:**
 - The dataset contained missing values in several columns, which were successfully handled using interpolation and mode filling.
 - Outliers were detected and removed using the Isolation Forest algorithm, improving the quality of the dataset.
 - Feature scaling ensured that all features were on a similar scale, which is crucial for many machine learning algorithms.
@@ -65,7 +65,7 @@ The primary goal of this project is to analyze a housing dataset, preprocess the
 
 ---
 
-#### **Technologies Used:**
+### **Technologies Used:**
 - **Python Libraries:**
   - `pandas` and `numpy` for data manipulation.
   - `matplotlib` and `seaborn` for data visualization.
@@ -79,7 +79,7 @@ The primary goal of this project is to analyze a housing dataset, preprocess the
 
 ---
 
-#### **Future Work:**
+### **Future Work:**
 - **Hyperparameter Tuning:** Perform hyperparameter tuning for the models to further improve performance.
 - **Feature Engineering:** Explore additional feature engineering techniques to enhance model accuracy.
 - **Model Comparison:** Compare the performance of more advanced models, such as Support Vector Regression (SVR) or Neural Networks.
@@ -87,13 +87,13 @@ The primary goal of this project is to analyze a housing dataset, preprocess the
 
 ---
 
-#### **Conclusion:**
+### **Conclusion:**
 This project provides a comprehensive analysis of a housing dataset and demonstrates the process of building and evaluating predictive models for estimating housing prices. The project highlights the importance of data preprocessing, visualization, and model evaluation in achieving accurate predictions. The final model can be used for further analysis or deployed in a real-world application to predict housing prices based on given features.
 
 
 ---
 
-##Summary of model performance
+## Summary of model performance
 
 | Model | Mean R² Score | Std Dev R² | MSE | RMSE | MAE | R² |
 |---|---|---|---|---|---|---|
